@@ -6,7 +6,7 @@ import Skills from '@/components/sections/Skills';
 import SkillsMarquee from '@/components/sections/SkillsMarquee';
 import Portfolio from '@/components/sections/Portfolio';
 import Journey from '@/components/sections/Journey';
-// import Testimonial from '@/components/sections/Testimonial';
+import Testimonial from '@/components/sections/Testimonial';
 // import FAQ from '@/components/sections/FAQ';
 
 export default function Home() {
@@ -23,8 +23,8 @@ export default function Home() {
         <SkillsMarquee />
         <Portfolio />
         <Journey />
-        {/* <Testimonial />
-        <FAQ /> */}
+        <Testimonial />
+        {/* <FAQ /> */}
       </main>
     </>
   );
