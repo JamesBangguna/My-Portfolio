@@ -86,7 +86,11 @@ Utility
 Clone repository
 
 ```bash
+<<<<<<< HEAD
 git clone https://github.com/JamesBangguna/My-Portfolio.git
+=======
+git clone https://github.com/JamesBangguna/frontend-portfolio.git
+>>>>>>> cf74a4800fcfd87376be6b0b36d5551f81110793
 ```
 
 Go to project
@@ -117,7 +121,11 @@ http://localhost:3000
 
 # 📁 Project Structure
 
+<<<<<<< HEAD
 My-Portfolio
+=======
+frontend-portfolio
+>>>>>>> cf74a4800fcfd87376be6b0b36d5551f81110793
 │
 ├── public
 │ │
