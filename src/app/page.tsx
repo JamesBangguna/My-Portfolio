@@ -1,6 +1,6 @@
 import Navbar from '@/components/layout/Navbar';
-// import Hero from '@/components/sections/Hero';
-// import Ticker from '@/components/sections/Ticker';
+import Hero from '@/components/sections/Hero';
+import Ticker from '@/components/sections/Ticker';
 // import About from '@/components/sections/About';
 // import Skills from '@/components/sections/Skills';
 // import SkillsMarquee from '@/components/sections/SkillsMarquee';
@@ -16,9 +16,9 @@ export default function Home() {
 
       <main className='bg-[#02060d] min-h-screen'>
         {/* Section 1: Hero area dengan ID Card bergoyang */}
-        {/* <Hero />
+        <Hero />
         <Ticker />
-        <About />
+        {/* <About />
         <Skills />
         <SkillsMarquee />
         <Portfolio />
