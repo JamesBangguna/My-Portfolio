@@ -5,7 +5,7 @@ import About from '@/components/sections/About';
 import Skills from '@/components/sections/Skills';
 import SkillsMarquee from '@/components/sections/SkillsMarquee';
 import Portfolio from '@/components/sections/Portfolio';
-// import Journey from '@/components/sections/Journey';
+import Journey from '@/components/sections/Journey';
 // import Testimonial from '@/components/sections/Testimonial';
 // import FAQ from '@/components/sections/FAQ';
 
@@ -22,8 +22,8 @@ export default function Home() {
         <Skills />
         <SkillsMarquee />
         <Portfolio />
-        {/* <Journey />
-        <Testimonial />
+        <Journey />
+        {/* <Testimonial />
         <FAQ /> */}
       </main>
     </>
